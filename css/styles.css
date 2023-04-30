@@ -137,10 +137,12 @@
 }
 
 
+
+
+
 #title1, #title2, #title3 {
   border: 2px solid black;
   background-color: pink;
- 
   font-weight: bold;
   float: right;
   margin: 0px;
@@ -160,10 +162,14 @@
 }
 
 
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
+  background-color: green;
+}
+
+.row2 {
+  width: 50%;
+  float: right;
 }
 
 h1 {
@@ -172,34 +178,12 @@ h1 {
 }
 
 #box {
-  background-color: gray;
   border: 1px solid black;
   margin: 10px;
+  background:  linear-gradient(lightgray, gray);
 }
 p {
   margin: 10px;
   clear: both;
 }
 
-.signup-stars {
-  background-image: radial-gradient(2px 2px at 50px 200px, #eee, rgba(0, 0, 0, 0)),radial-gradient(2px 2px at 40px 70px, #fff, rgba(0, 0, 0, 0)),radial-gradient(3px 4px at 120px 40px, #ddd, rgba(0, 0, 0, 0));
-  background-repeat: repeat;
-  background-size: 250px 250px;
-  opacity: 0;
-  animation: zoom 10s infinite;
-}
-
-.signup-space, .signup-stars {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-}
-
-
-#starsbox {
-  size: 300px 300px;
-  background-color: blue;
-}
